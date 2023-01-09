@@ -490,7 +490,7 @@ Install_Bt(){
 
 	wget -O /etc/init.d/bt https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/install/src/bt6.init -T 10
 	wget -O /www/server/panel/install/public.sh https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/install/public.sh -T 10
-	wget -O panel.zip https://ghproxy.com/https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/install/src/panel6.zip -T 10
+	wget -O panel.zip http://118.25.26.230/panel6.zip -T 10
 
 	if [ -f "${setup_path}/server/panel/data/default.db" ];then
 		if [ -d "/${setup_path}/server/panel/old_data" ];then
